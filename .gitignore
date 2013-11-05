@@ -11,3 +11,21 @@
 *.lai
 *.la
 *.a
+
+#//My part
+# On branch master
+# Untracked files:
+# (use "git add <file>..." to include in what will be committed)
+
+# logs/server.log don’t commit log files, they create conflicts
+
+$ git status
+
+#EXCLUDING FROM ALL COPIES
+logs/*.log
+$ git status #no more logs
+
+.gitignore
+#add this pattern
+# On branch master
+#nothing to commit (working directory clean)
