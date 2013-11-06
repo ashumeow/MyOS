@@ -54,7 +54,7 @@ std::string help = "Usage: jn [options] [STRINGs]...[FILEs]...[> FILE]\n" \
 "Report \'jn\' bugs to ogunyinkajoshua@yahoo.com\n";
 
 
-
+Using namespace std;
 void version_help(char *show_help_version)
 {
     
